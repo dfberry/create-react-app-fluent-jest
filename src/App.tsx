@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Text, Link, FontWeights, IStackTokens, IStackStyles, ITextStyles } from '@fluentui/react';
+import { PrimaryButton, Stack, Text, Link, FontWeights, IStackTokens, IStackStyles, ITextStyles } from '@fluentui/react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -38,6 +38,7 @@ export const App: React.FunctionComponent = () => {
         <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons">Icons</Link>
         <Link href="https://developer.microsoft.com/en-us/fluentui#/styles/web">Styles</Link>
         <Link href="https://aka.ms/themedesigner">Theme designer</Link>
+        <PrimaryButton></PrimaryButton>
       </Stack>
     </Stack>
   );
